@@ -1,0 +1,314 @@
+/* :root{
+  
+} */
+
+/* responsive */
+@media screen and (max-width:370px){
+    
+.competence ul{
+    display: flex;
+    justify-content: flex-start;
+       flex-wrap: wrap;
+}
+.github,
+.dg,
+.dt,
+.nocode-forum {
+    position: relative;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+}
+
+/* style global du partfolio */
+#global-style {
+    width: 500px;
+    background: rgb(218, 218, 227);
+    transition: 0.5s;
+    font-family: Georgia, serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* titre */
+.qsj {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 30px;
+    padding: 15px;
+    font-weight: bold;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(8, 187, 207);
+
+}
+
+/* identité et photo de crédit */
+.identity-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(31, 33, 33);
+}
+
+/* identité */
+.identity {
+    margin-right: 5px;
+    padding: 1em;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(31, 33, 33);
+}
+
+/* profil photo */
+.ide-img {
+    margin-left: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(31, 33, 33);
+}
+
+/* competence-description */
+.competence-description {
+    padding: 9px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(31, 33, 33);
+}
+
+.description {
+    padding: 12px;
+    padding-right: 4px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+    color: rgb(31, 33, 33);
+}
+
+
+/* competence ou technologie */
+.competence ul {
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 9px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+    color: rgb(255, 255, 255);
+}
+
+.tech-des {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 2px rgb(47, 74, 101);
+    color: rgb(79, 160, 231);
+
+}
+
+/* html */
+.html {
+    padding: 5px;
+    background: rgb(236, 109, 5);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.css {
+    padding: 5px;
+    background: rgb(5, 127, 140);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.js {
+    padding: 5px;
+    background: rgb(201, 201, 44);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.react {
+    padding: 5px;
+    background: rgb(31, 209, 222);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.node {
+    padding: 5px;
+    background: rgb(31, 222, 44);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.seo {
+    padding: 5px;
+    background: rgb(168, 31, 222);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.blogger {
+    padding: 5px;
+    background: rgb(165, 222, 31);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.wp {
+    padding: 5px;
+    background: rgb(12, 150, 248);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.getresponse {
+    padding: 5px;
+    background: rgb(31, 193, 222);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.api {
+    padding: 5px;
+    background: rgb(216, 30, 185);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.zapier {
+    padding: 5px;
+    background: rgb(97, 65, 227);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.make {
+    padding: 5px;
+    background: rgb(7, 218, 207);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.com-man {
+    padding: 5px;
+    background: rgb(7, 94, 218);
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(28, 27, 27);
+}
+
+.projet{
+     display: flex;
+     justify-content: space-between;
+        flex-wrap: wrap;
+     margin-left: 0px;
+     margin-right: 0px;
+     padding: 9px;
+     background: white;
+     border-radius: 30px/40px;
+     box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+     color: rgb(255, 255, 255);
+}
+.i-projet{
+     width: 200px;
+     height: 300px;
+     border-radius: 40px/20px;
+}
+.github , .dg , .dt , .nocode-forum{
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 9px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+}
+  .parcours{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 9px;
+    background: white;
+    border-radius: 30px/40px;
+    box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+    color: rgb(61, 104, 87);
+  }
+  .frequentation{
+ margin-right: 4px;
+ padding: 9px;
+ background: white;
+ border-radius: 30px/40px;
+ box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+  }
+.diplome {
+     margin-left: 4px;
+     padding: 9px;
+     background: white;
+     border-radius: 30px/40px;
+     box-shadow: 0px 1px 10px 2px rgb(23, 24, 25);
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: inherit;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.sim-cart {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.en-savoir {
+    background: rgb(103, 190, 206);
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+}
+img {
+    width: 90%;
+    transition: 1.5s;
+    border-radius: 30px/40px;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: 1.5s;
+}
